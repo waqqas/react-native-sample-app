@@ -13,18 +13,19 @@ build/
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
-xcuserdata
+xcuserdatae
 *.xccheckout
 *.moved-aside
 DerivedData
 *.hmap
 *.ipa
 *.xcuserstate
+**xcuserdata
 project.xcworkspace
+ios/Pods
 
 # Android/IntelliJ
 #
-build/
 .idea
 .gradle
 local.properties
@@ -39,7 +40,6 @@ yarn-error.log
 # BUCK
 buck-out/
 \.buckd/
-*.keystore
 
 # fastlane
 #
